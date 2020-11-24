@@ -1,5 +1,5 @@
 {
- "Parameters":[{"maxTrucks": 100, "maxVolume": 5000}],
+ "Parameters":{"maxTrucks": 100, "maxVolume": 5000},
  "Hubs":[{"name": "1"},{"name": "2"},{"name": "3"}],
  "Shops":[{"name": "A", "minDepTime": 360, "maxArrTime": 1080},
                 {"name": "B","minDepTime": 400,"maxArrTime": 1150},
@@ -49,7 +49,7 @@
                 {"origin": "D","destination": "B","volume": 135},
                 {"origin": "D","destination": "C","volume": 245},
                 {"origin": "D","destination": "E","volume": 283},
-                {"origin": "D","destination": "F""volume": 155},
+                {"origin": "D","destination": "F","volume": 155},
                 {"origin": "E","destination": "A","volume": 123},
                 {"origin": "E","destination": "B","volume": 234},
                 {"origin": "E","destination": "C","volume": 143},
