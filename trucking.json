@@ -32,7 +32,7 @@
             {"shop": "C","hub": "3","distance": 11.3},
             {"shop": "D","hub": "3","distance": 12.6},
             {"shop": "E","hub": "3","distance": 9.8},
-            {"shop": "F","hub": "3","distance": 10},],
+            {"shop": "F","hub": "3","distance": 10}],
  "Shipments":[{"origin": "A","destination": "B","volume": 300},
                 {"origin": "A","destination": "C","volume": 250},
                 {"origin": "A","destination": "D","volume": 350},
