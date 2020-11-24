@@ -1,0 +1,7 @@
+﻿hub,truckType,loadTime
+PL1,SmallTruck,30
+PL1,BigTruck,55
+PL2,SmallTruck,35
+PL2,BigTruck,50
+PL3,SmallTruck,25
+PL3,BigTruck,45
