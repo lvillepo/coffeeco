@@ -1,6 +1,6 @@
 {
  "Parameters":{"maxTrucks": 100, "maxVolume": 5000},
- "Hubs":[{"name": "1"},{"name": "2"},{"name": "3"}],
+ "Hubs":[{"name": 1},{"name": 2},{"name": 3}],
  "Shops":[{"name": "A", "minDepTime": 360, "maxArrTime": 1080},
                 {"name": "B","minDepTime": 400,"maxArrTime": 1150},
                 {"name": "C","minDepTime": 380,"maxArrTime": 1200},
