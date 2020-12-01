@@ -15,52 +15,270 @@
                 {"hub": "2","truckType": "BigTruck","loadTime": 50},
                 {"hub": "3","truckType": "SmallTruck","loadTime": 25},
                 {"hub": "3","truckType": "BigTruck","loadTime": 45}],
- "Routes":[{"hub": "1","shop": "A","distance": 7},
-            {"hub": "1","shop": "B","distance": 6},
-            {"hub": "1","shop": "C","distance": 8},
-            {"hub": "1","shop": "D","distance": 6},
-            {"hub": "1","shop": "E","distance": 6},
-            {"hub": "1","shop":"F","distance": 4},
-            {"hub": "2","shop": "A","distance": 8},
-            {"hub": "2","shop": "B","distance": 7},
-            {"hub": "2","shop": "C","distance": 7},
-            {"hub": "2","shop": "D","distance": 6},
-            {"hub": "2","shop": "E","distance": 8},
-            {"hub": "2","shop": "F","distance": 7},
-            {"hub": "3","shop": "A","distance": 10},
-            {"hub": "3","shop": "B","distance": 11},
-            {"hub": "3","shop": "C","distance": 11},
-            {"hub": "3","shop": "D","distance": 13},
-            {"hub": "3","shop": "E","distance": 10},
-            {"hub": "3","shop": "F","distance": 10}],
- "Shipments":[{"origin": "A","destination": "B","volume": 300},
-                {"origin": "A","destination": "C","volume": 250},
-                {"origin": "A","destination": "D","volume": 350},
-                {"origin": "A","destination": "E","volume": 145},
-                {"origin": "A","destination": "F","volume": 300},
-                {"origin": "B","destination": "A","volume": 185},
-                {"origin": "B","destination": "C","volume": 200},
-                {"origin": "B","destination": "D","volume": 221},
-                {"origin": "B","destination": "E","volume": 263},
-                {"origin": "B","destination": "F","volume": 197},
-                {"origin": "C","destination": "A","volume": 143},
-                {"origin": "C","destination": "B","volume": 178},
-                {"origin": "C","destination": "D","volume": 258},
-                {"origin": "C","destination": "E","volume": 221},
-                {"origin": "C","destination": "F","volume": 106},
-                {"origin": "D","destination": "A","volume": 75},
-                {"origin": "D","destination": "B","volume": 135},
-                {"origin": "D","destination": "C","volume": 245},
-                {"origin": "D","destination": "E","volume": 283},
-                {"origin": "D","destination": "F","volume": 155},
-                {"origin": "E","destination": "A","volume": 123},
-                {"origin": "E","destination": "B","volume": 234},
-                {"origin": "E","destination": "C","volume": 143},
-                {"origin": "E","destination": "D","volume": 78},
-                {"origin": "E","destination": "F","volume": 107},
-                {"origin": "F","destination": "A","volume": 201},
-                {"origin": "F","destination": "B","volume": 157},
-                {"origin": "F","destination": "C","volume": 169},
-                {"origin": "F","destination": "D","volume": 212},
-                {"origin": "F","destination": "E","volume": 104}]
+ "Routes":[{"begin": 1,"end": "A","distance": 7},
+            {"begin": 1,"end": "B","distance": 6},
+            {"begin": 1,"end": "C","distance": 8},
+            {"begin": 1,"end": "D","distance": 6},
+            {"begin": 1,"end": "E","distance": 6},
+            {"begin": 2,"end": "A","distance": 8},
+            {"begin": 2,"end": "B","distance": 7},
+            {"begin": 2,"end": "C","distance": 7},
+            {"begin": 2,"end": "D","distance": 6},
+            {"begin": 2,"end": "E","distance": 7},
+            {"begin": 3,"end": "A","distance": 10},
+            {"begin": 3,"end": "B","distance": 11},
+            {"begin": 3,"end": "C","distance": 11},
+     {
+       "begin": 3,
+       "end": "D",
+       "distance": 13
+     },
+     {
+       "begin": 3,
+       "end": "E",
+       "distance": 10
+     },
+     {
+       "begin": "A",
+       "end": "B",
+       "distance": 1
+     },
+     {
+       "begin": "A",
+       "end": "C",
+       "distance": 1
+     },
+     {
+       "begin": "A",
+       "end": "D",
+       "distance": 2
+     },
+     {
+       "begin": "A",
+       "end": "E",
+       "distance": 1
+     },
+     {
+       "begin": "A",
+       "end": "F",
+       "distance": 5
+     },
+     {
+       "begin": "B",
+       "end": "A",
+       "distance": 1
+     },
+     {
+       "begin": "B",
+       "end": "C",
+       "distance": 2
+     },
+     {
+       "begin": "B",
+       "end": "D",
+       "distance": 2
+     },
+     {
+       "begin": "B",
+       "end": "E",
+       "distance": 1
+     },
+     {
+       "begin": "B",
+       "end": "F",
+       "distance": 4
+     },
+     {
+       "begin": "C",
+       "end": "A",
+       "distance": 1
+     },
+     {
+       "begin": "C",
+       "end": "B",
+       "distance": 2
+     },
+     {
+       "begin": "C",
+       "end": "D",
+       "distance": 2
+     },
+     {
+       "begin": "C",
+       "end": "E",
+       "distance": 2
+     },
+     {
+       "begin": "C",
+       "end": "F",
+       "distance": 6
+     },
+     {
+       "begin": "D",
+       "end": "A",
+       "distance": 2
+     },
+     {
+       "begin": "D",
+       "end": "B",
+       "distance": 2
+     },
+     {
+       "begin": "D",
+       "end": "C",
+       "distance": 2
+     },
+     {
+       "begin": "D",
+       "end": "E",
+       "distance": 3
+     },
+     {
+       "begin": "D",
+       "end": "F",
+       "distance": 4
+     },
+     {
+       "begin": "E",
+       "end": "A",
+       "distance": 1
+     },
+     {
+       "begin": "E",
+       "end": "B",
+       "distance": 1
+     },
+     {
+       "begin": "E",
+       "end": "C",
+       "distance": 2
+     },
+     {
+       "begin": "E",
+       "end": "D",
+       "distance": 2
+     },
+     {
+       "begin": "E",
+       "end": "F",
+       "distance": 4
+     },
+     {
+       "begin": "F",
+       "end": "A",
+       "distance": 5
+     },
+     {
+       "begin": "F",
+       "end": "B",
+       "distance": 4
+     },
+     {
+       "begin": "F",
+       "end": "C",
+       "distance": 6
+     },
+     {
+       "begin": "F",
+       "end": "D",
+       "distance": 4
+     },
+     {
+       "begin": "F",
+       "end": "E",
+       "distance": 4
+     }
+   ],
+ "Shipments":[
+     {
+       "origin": 1,
+       "destination": "A",
+       "volume": 300
+     },
+     {
+       "origin": 1,
+       "destination": "B",
+       "volume": 250
+     },
+     {
+       "origin": 1,
+       "destination": "C",
+       "volume": 350
+     },
+     {
+       "origin": 1,
+       "destination": "D",
+       "volume": 145
+     },
+     {
+       "origin": 1,
+       "destination": "E",
+       "volume": 300
+     },
+     {
+       "origin": 1,
+       "destination": "F",
+       "volume": 185
+     },
+     {
+       "origin": 2,
+       "destination": "A",
+       "volume": 200
+     },
+     {
+       "origin": 2,
+       "destination": "B",
+       "volume": 221
+     },
+     {
+       "origin": 2,
+       "destination": "C",
+       "volume": 263
+     },
+     {
+       "origin": 2,
+       "destination": "D",
+       "volume": 197
+     },
+     {
+       "origin": 2,
+       "destination": "E",
+       "volume": 143
+     },
+     {
+       "origin": 2,
+       "destination": "F",
+       "volume": 178
+     },
+     {
+       "origin": 3,
+       "destination": "A",
+       "volume": 258
+     },
+     {
+       "origin": 3,
+       "destination": "B",
+       "volume": 221
+     },
+     {
+       "origin": 3,
+       "destination": "C",
+       "volume": 106
+     },
+     {
+       "origin": 3,
+       "destination": "D",
+       "volume": 75
+     },
+     {
+       "origin": 3,
+       "destination": "E",
+       "volume": 135
+     },
+     {
+       "origin": 3,
+       "destination": "F",
+       "volume": 245
+     }
+   ]
 }
